@@ -1,18 +1,3 @@
-# class Student:
-#     def __init__(self,name,marks):
-#         self.name = name
-#         self.marks = marks
-        
-#     def get_avg(self):
-#         sum = 0
-#         for val in self.marks:
-#             sum += val
-#             print("hi",self.name , "your scro" , sum/3)
-        
-# s1 = Student("umair", [99 , 98 ,97])
-# s1.get_avg()
-
-        
 class Account:
     def __init__(self , bal , acc):
         self.balance =bal
